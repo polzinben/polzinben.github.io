@@ -1,14 +1,14 @@
 ---
 layout: page
-title: About
+title: About Ben
 permalink: /about/
 ---
 
-Some information about you!
+Hi my name is Ben
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I am an engineer and a data scientist.  
 
 ### Contact me
 
