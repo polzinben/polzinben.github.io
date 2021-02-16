@@ -5,7 +5,9 @@ subtitle: 2-minute read
 ---
 My name is Ben Polzin and I am a passionate problem solver who always dreamed of the future and how I could help shape it.  Growing up I was always curious, always trying to figure out how things worked.  At amusement parks when other kids were excited by the characters and spectacle, I was enthralled by how the rollercoasters worked - looking at the gears and inner workings and coming up with ideas on how to make it even better has always come naturally to me.
 
-[Ben Polzin Headshot](https://avatars.githubusercontent.com/u/35545687?s=460&u=1db0b340759f50fb7fffe327b77465351479a5f2&v=4)
+![Ben Polzin Headshot](https://avatars.githubusercontent.com/u/35545687?s=460&u=1db0b340759f50fb7fffe327b77465351479a5f2&v=4)
+
+[Ben Polzin Headshot]({{ https://avatars.githubusercontent.com/u/35545687?s=460&u=1db0b340759f50fb7fffe327b77465351479a5f2&v=4 }}/images/config.png)
 
 As a kid I loved building and flying model rockets, tinkering with k'nex sets and dreaming of what could be.  Eventually this led me to Colorado School of Mines, a very challenging but inspiring Engineering University in Golden, CO known for its Petroleum Engineering program.  Oil and gas is a complex and multidisciplinary field that is critical to providing reliable energy.  It was very appealing to me, as well as the opportunity to solve new problems I had never thought of before.  
 
