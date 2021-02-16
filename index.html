@@ -3,7 +3,7 @@ layout: default
 title: Projects
 ---
 
-<body>
+<!-- <body>
     <div class="wrapper">
 
         <section>
@@ -11,7 +11,23 @@ title: Projects
             <h2>Project 1 - BrainStation Diploma Capstone Project</a></h2>
             <h2>MyGamePass</a></h2>
             <p>Recommendation system for video games. Explored both collaborative filtering and content-based filtering by cosine similarity.  Demonstrated skills include: python, pandas, scikit-learn, data cleaning and preprocessing, matrix factorization, natural language processing, and machine learning.</p>
+            <p></p>
 
         </section>
     </div>
-</body>
+</body> -->
+
+<div class="posts">
+    {% for project in site.projects %}
+      <article class="post">
+  
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ project.title }}</a></h1>
+  
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
+  
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </article>
+    {% endfor %}
+  </div>
