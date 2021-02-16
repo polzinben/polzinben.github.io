@@ -21,4 +21,4 @@ Self-motivated and thrive as a versatile member of the team. Collaboration, inno
 
 ### Contact me
 
-[polzin@gmail.com](mailto:polzinben@gmail.com)
+The logos at the bottom of the page function as links to my email, GitHub, and LinkedIn.  Thanks for your interest!
