@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /blog/
 title: The Journey Begins!
 subtitle: 2-minute read
 comments: true
