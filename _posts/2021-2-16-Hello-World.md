@@ -2,6 +2,7 @@
 layout: post
 title: The Journey Begins!
 subtitle: 2-minute read
+comments: true
 ---
 My name is Ben Polzin and I am a passionate problem solver who always dreamed of the future and how I could help shape it.  Growing up I was always curious, always trying to figure out how things worked.  At amusement parks when other kids were excited by the characters and spectacle, I was enthralled by how the rollercoasters worked - looking at the gears and inner workings and coming up with ideas on how to make it even better has always come naturally to me.
 
