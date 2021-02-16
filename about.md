@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Ben
+title: About Me
 permalink: /about/
 ---
 
