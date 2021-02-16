@@ -1,33 +1,233 @@
----
-layout: default
-title: Projects
----
-
-<!-- <body>
-    <div class="wrapper">
-
-        <section>
-            <h1>Project Portfolio</h1>
-            <h2>Project 1 - BrainStation Diploma Capstone Project</a></h2>
-            <h2>MyGamePass</a></h2>
-            <p>Recommendation system for video games. Explored both collaborative filtering and content-based filtering by cosine similarity.  Demonstrated skills include: python, pandas, scikit-learn, data cleaning and preprocessing, matrix factorization, natural language processing, and machine learning.</p>
-            <p></p>
-
-        </section>
+<html>
+  <body>
+    <!-- Modals -->
+    <div id="myModal" class="modal" onclick="handleClick(event)">
+      <span class="close">&times;</span>
+      <img class="modal-content"></img>
     </div>
-</body> -->
 
-<div class="posts">
-    {% for project in site.projects %}
-      <article class="post">
-  
-        <h1><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></h1>
-  
-        <div class="entry">
-          {{ post.excerpt }}
+    <!-- Introduction -->
+    <div class="intro-wrapper">
+      <h1 class="intro-wrapper__header">Ben Polzin</h1>
+      <div class="intro-wrapper__section">
+        <p>
+          Hi! Welcome to my portfolio! And thank you very much for your interest! I am a former Petroleum Engineer turned Data Scientist with a passion for problem solving and innovation. After graduationg from <a class='intro-wrapper__link' style="color:#004eeb !important" href='https://www.mines.edu//' target="_blank">Colorado School of Mines</a> with a B.S. in Petroleum Engineering in May 2016 in the midst of a severe downturn in the industry.  One of only 18 others in my graudating class of 200+ to be hired that year, I was lucky to have the opportunity to grow and learn in such a tough environment.  Adaptability, collaboration, and innovation became my foundation.  After falling in love with data while working as an engineer I realized I needed to expand my toolbox to be equipped to solve the problems of tomorrow.  So, I left my position and decided to pursue this dream full time.  I completed my Data Science Diploma <a class='intro-wrapper__link' style="color:#004eeb !important" href='https://www.brainstation.io/' target="_blank">@BrainStation</a>.  I was selected at the top of my class to join as a Teaching Assistant to provide mentoring and leadership for the next cohort which has been a great experience.
+        </p>
+        <p>Always excited about the future and how we can shape it, I am very excited to join a great team and put these skills to use! I am passionate about Machine Learning, Python, the space industry, my favorite sports teams the Iowa Hawkeyes and Green Bay Packers, and of course Xbox. Below you can find projects demonstrating the data science foundational skillset. If interested, please feel free to contact me!  The logos at the bottom of the page serve as links to my email, GitHub, and LinkedIn.  Thanks!
+      </div>
+    </div>
+
+
+    <div class="projects" onclick="handleClick(event)">
+      <!--  ES6 Cheatsheet -->
+      <div class="projects-row">
+        <div id="es6-cheatsheet" class="col-md-6">
+          <img class="projects-row__img" src="images/es6_talk_mockup.png" id="es6" alt="ES6 Cheatsheet">
         </div>
-  
-        <a href="{{ site.baseurl }}{{ project.url }}" class="read-more">Read More</a>
-      </article>
-    {% endfor %}
-  </div>
+        <div class="col-md-6">
+          <div class="project-information">
+            <h2 class="project-information__title">ES6 Cheatsheet</h2>
+            <h3 class="project-information__heading">January 17, 2016 - Present<br></h3>
+            <h4 class="project-information__section-text"><b>Technologies used</b>: JavaScript</h4>
+            <p class="project-information__description">ES2015 [ES6] cheatsheet containing tips, tricks, best practices and code snippets. Some notable achivements:
+            </p>
+
+            <ul>
+              <li>Trended on <a href="https://news.ycombinator.com/item?id=10953039" target="_blank">front page of Hacker News</a> for 24+ hours</li>
+              <li>Currently has <b>over 11,000 stars on Github</b></li>
+              <li>Shared around Google and Netflix Engineering teams -- and received great feedback from individuals there as well!</li>
+              <li>Created for my first technical talk at the <a href="https://www.meetup.com/JS-NYC/events/227692424/" target="_blank">Node.js Meetup</a> at Microsoft, NYC</li>
+            </ul>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://github.com/DrkSephy/es6-cheatsheet">Repo</a></button>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://www.youtube.com/watch?v=sK2SIZv82wo&feature=youtu.be">Video</a></button>
+          </div>
+        </div>
+      </div>
+
+      <!--  Django Hackathon Starter -->
+      <div class="projects-row">
+        <div id="django-hackathon-starter" class="col-md-6">
+          <img class="projects-row__img" src="images/DjangoHackathonStarter_mockup.png" id="djs" alt="Django Hackathon Starter">
+        </div>
+        <div class="col-md-6">
+          <div class="project-information">
+            <h2 class="project-information__title">Django Hackathon Starter</h2>
+            <h3 class="project-information__heading">March 8, 2015 - Present<br></h3>
+
+            <h4 class="project-information__section-text"><b>Technologies used: </b>Django  • Python 2.7 </h4>
+            <p class="project-information__description">A Django boilerplate containing over two dozen API examples and several OAuth integrations, along with an Ionic application for both mobile and web applications. Some notable achievements:
+              <ul class="project-information__ul">
+                <li>Currently has <b>over 1300 stars on Github</b></li>
+                <li>Previously featured on <a href="https://www.djangoproject.com/" target="_blank">Django Project</a></li>
+              </ul>
+
+            </p>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://github.com/DrkSephy/django-hackathon-starter">Repo</a></button>
+          </div>
+        </div>
+      </div>
+
+      <!--  Chronicles of the Abyss -->
+      <div class="projects-row">
+        <div id="chronicles-of-the-abyss" class="col-md-6">
+          <img class="projects-row__img" src="images/WaterEmblem_mockup.png" id="fe" alt="Chronicles of the Abyss">
+        </div>
+        <div class="col-md-6">
+          <div class="project-information">
+            <h2 class="project-information__title">Chronicles of the Abyss</h2>
+            <h3 class="project-information__heading">November 24, 2013 - December 7, 2015<br></h3>
+            <h4 class="project-information__section-text"><b>Technologies used: </b>JavaScript  • ImpactJS  • Canvas</h4>
+            <p class="project-information__description">A faithful recreation of <a href="https://fireemblem.fandom.com/wiki/Fire_Emblem:_The_Blazing_Blade" target="_blank">Fire Emblem: The Blazing Blade</a> using the <a href="https://impactjs.com/" target="_blank">ImpactJS</a> framework. Some notable features: 
+              <ul class="project-information__ul">
+                <li>Dedicated 400+ hours of development</li>
+                <li>Implemented augmented enemy AI movement using A* Pathfinding algorithm</li>
+                <li>Implemented various game systems such as dialog, weapons, statistics, animations and game flow</li>
+              </ul>
+            </p>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://github.com/chessmasterhong/WaterEmblem">Repo</a></button>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://chessmasterhong.bitbucket.io/projects/WaterEmblem/">Demo</a></button>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://drksephy.github.io/2014/03/30/fireemblem/">Read More</a></button>
+          </div>
+        </div>
+      </div>
+
+      <!--  Pascal Compiler -->
+      <div class="projects-row">
+        <div id="pascal-compiler" class="col-md-6">
+          <img class="projects-row__img" src="images/PascalCompiler_mockup.png" id="pc" alt="Pascal Compiler">
+        </div>
+        <div class="col-md-6">
+          <div class="project-information">
+            <h2 class="project-information__title">Pascal Compiler</h2>
+            <h3 class="project-information__heading">September 2, 2014 - December 17, 2014<br></h3>
+            <h4 class="project-information__section-text"><b>Technologies used: </b>Python  • Pascal </h4>
+            <p class="project-information__description">A Pascal Compiler written purely in Python with <b>no external libraries</b> used for tokenization, parsing and bytecode generation. Currently supports:
+              <ul class="project-information__ul">
+                <li>All control flow statements</li>
+                <li>All assignment statements</li>
+                <li>All Mathematical operations</li>
+              </ul>
+            </p>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://github.com/DrkSephy/pascal-compiler">Repo</a></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Multiple Traveling Salesman Problem  -->
+      <div class="projects-row">
+        <div id="multiple-traveling-salesman" class="col-md-6">
+          <img class="projects-row__img" src="images/TravelingSalesMan_mockup.png" id="mtsp" alt="Multiple Traveling Salesman">
+        </div>
+        <div class="col-md-6">
+          <div class="project-information">
+            <h2 class="project-information__title">Multiple Traveling Salesman Approximation</h2>
+            <h3 class="project-information__heading">March 13, 2016 - June 4, 2016<br></h3>
+            <h4 class="project-information__section-text"><b>Technologies used: </b>JavaScript  • Canvas</h4>
+            <p class="project-information__description">
+              An implementation of approximating the Multiple Traveling Salesman Problem using <a href="https://drksephy.github.io/2015/11/28/geneticalgorithms/" target="_blank">Genetic Algorithms</a> written purely in JavaScript and simulated using Canvas. The overall goal of this problem is to approximate the most optimal path that <em>n</em> salesman must travel across <em>m</em> cities.
+            </p>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://github.com/DrkSephy/mtsp">Repo</a></button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Shogi  -->
+      <div class="projects-row">
+        <div id="shogi" class="col-md-6">
+          <img class="projects-row__img" src="images/Shogi_mockup.png" id="shogi-game" alt="Dobutsu Shogi">
+        </div>
+        <div class="col-md-6">
+          <div class="project-information">
+            <h2 class="project-information__title">Dobutsu Shogi w/ Alpha-Beta Pruning + Minimax</h2>
+            <h3 class="project-information__heading">September 6, 2015 - December 31, 2015<br></h3>
+            <h4 class="project-information__section-text"><b>Technologies used: </b>JavaScript  • jQuery</h4>
+            <p class="project-information__description">
+              A JavaScript implementation of <a href="https://en.wikipedia.org/wiki/D%C5%8Dbutsu_sh%C5%8Dgi" target="_blank">Dobutsu Shogi</a>, in which the player tries to defeat an AI utilizing Mini-max with Alpha-Beta Pruning for 5-7 turn lookahead.
+            </p>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://github.com/DrkSephy/Shogi">Repo</a></button>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://drksephy.github.io/Shogi/">Demo</a></button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Facebook Open Source Visualization  -->
+      <div class="projects-row">
+        <div id="fb-open-source-visualization" class="col-md-6">
+          <img class="projects-row__img" src="images/FacebookOSViz_mockup.png" id="viz" alt="Facebook Open Source Visualization">
+        </div>
+
+        <div class="col-md-6 align-self-center">
+          <div class="project-information">
+            <h2 class="project-information__title">Facebook Open Source Visualization</h2>
+            <h3 class="project-information__heading">March 3, 2016 - May 25, 2016<br></h3>
+            <h4 class="project-information__section-text"><b>Technologies used: </b>Python  • JavaScript  • D3.js</h4>
+            <p class="project-information__description">
+              A dynamic visualization of the growth of open-source Facebook projects on Github using D3. Utilizes a treemap of repositories, filters, charts and more. Initial data was fetched using <a href="https://www.gharchive.org/" target="_blank">Github Archive</a> and processed using Pandas + Google BigQuery.
+            </p>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://bitbucket.org/DrkSephy/oss-dataviz">Repo</a></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Technetium Redux -->
+      <div class="projects-row">
+        <div id="technetium-redux" class="col-md-6">
+          <img class="projects-row__img" src="images/Technetium_mockup.png" id="technetium" alt="Technetium Redux">
+        </div>
+        <div class="col-md-6">
+          <div class="project-information">
+            <h2 class="project-information__title">Technetium Redux</h2>
+            <h3 class="project-information__heading">January 24, 2016 - May 25, 2016<br></h3>
+            <h4 class="project-information__section-text"><b>Technologies used: </b> JavaScript  • React  • Node.js  • Express.js</h4>
+            <p class="project-information__description">
+              Dashboard built using React which leverages the Bitbucket API to generate beautiful reports with time series, sparklines, charts and custom date range picker. Currently used at the City College of New York's Web Design courses (Undergraduate, Masters and Ph.D) levels for tracking student progress and managing team contributions.
+            </p>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://github.com/DrkSephy/technetium-redux">Repo</a></button>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://technetium-redux.herokuapp.com/">Demo</a></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tales of Kratos -->
+      <div class="projects-row">
+        <div id="tales-of-kratos" class="col-md-6">
+          <img class="projects-row__img" src="images/Kratos_mockup.png" id="kratos" alt="Tales of Kratos">
+        </div>
+        <div class="col-md-6">
+          <div class="project-information">
+            <h2 class="project-information__title">Tales of Kratos</h2>
+            <h3 class="project-information__heading">February 1, 2015 - July 10, 2015<br></h3>
+            <h4 class="project-information__section-text"><b>Technologies used: </b> JavaScript  • ImpactJS  • Canvas </h4>
+            <p class="project-information__description">
+              A 2D action packed RPG demo heavily inspired by <a href="https://en.wikipedia.org/wiki/Tales_of_Symphonia" target="_blank">Tales of Symphonia</a>. Defeat enemies, gain experience and traverse through various obstacles and puzzles. First place winner of the City College of New York's ACM Indie Competition.
+            </p>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://github.com/DrkSephy/tales-of-kratos">Repo</a></button>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://drksephy.github.io/Tales-of-Kratos-Deployment/">Demo</a></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Koopa Krsis -->
+      <div class="projects-row">
+        <div id="koopa-krisis" class="col-md-6">
+          <img class="projects-row__img" src="images/KoopaKrisis_mockup.png" id="koopa" alt="Koopa Krisis">
+        </div>
+        <div class="col-md-6">
+          <div class="project-information">
+            <h2 class="project-information__title">Koopa Krisis</h2>
+            <h3 class="project-information__heading">July 21, 2013 - January 28, 2014<br></h3>
+            <h4 class="project-information__section-text"><b>Technologies used: </b> JavaScript  • ImpactJS  • Canvas</h4>
+            <p class="project-information__description">
+              My first ever side project. Led a team of students within the game development club at City College of New York's ACM Chapter. Super Mario World: Koopa Krisis is heavily inspired by the original <a href="https://en.wikipedia.org/wiki/Super_Mario_World" target="_blank">Super Mario World</a> coupled with various RPG elements.
+            </p>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://github.com/DrkSephy/smw-koopa-krisis">Repo</a></button>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://drksephy.bitbucket.io/">Demo</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/modal.js"></script>
+  </body>
+</html>
