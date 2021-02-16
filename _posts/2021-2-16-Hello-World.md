@@ -5,8 +5,6 @@ subtitle: 2-minute read
 ---
 My name is Ben Polzin and I am a passionate problem solver who always dreamed of the future and how I could help shape it.  Growing up I was always curious, always trying to figure out how things worked.  At amusement parks when other kids were excited by the characters and spectacle, I was enthralled by how the rollercoasters worked - looking at the gears and inner workings and coming up with ideas on how to make it even better has always come naturally to me.
 
-<p align="center">![Ben Polzin Headshot](https://avatars.githubusercontent.com/u/35545687?s=460&u=1db0b340759f50fb7fffe327b77465351479a5f2&v=4)</p>
-
 <p align="center">
     <img src="https://avatars.githubusercontent.com/u/35545687?s=460&u=1db0b340759f50fb7fffe327b77465351479a5f2&v=4">
 </p>
@@ -20,9 +18,3 @@ That adaptability and love of innovation that I always had as a kid led me to fa
 And that brings me here, a newly minted Data Scientist having completing the diploma program at BrainStation.  I will go into the bootcamp experience in more detail in another post, but it was a fantastic experience and pushed me every day.  After demonstrating the skillset, enthusiasm, and leadership ability I was offered a contract to join the team as a Teaching Assistant.  That was a great experience being a mentor and tutor as well.
 
 Looking forward to using this blog as an opportunity to share more of my evolution, as well as highlight my evolving skillset with a portfolio demonstrating the data science foundation.  The journey begins!
-
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
