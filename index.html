@@ -3,12 +3,6 @@ layout: default
 title: Projects
 ---
 <body>
-  <!-- Modals -->
-  <!-- <div id="myModal" class="modal" onclick="handleClick(event)">
-    <span class="close">&times;</span>
-    <img class="modal-content"></img>
-  </div> -->
-
   <!-- Introduction -->
   <div class="intro-wrapper">
     <h1 class="intro-wrapper__header">Hello!</h1>
@@ -24,23 +18,38 @@ title: Projects
       </p>
   </div>
 
-  <div class="wrapper">
-      <section>
-          <h1>Project Portfolio</h1>
-          <h2>Project 1 - BrainStation Diploma Capstone Project</a></h2>
-          <h2>MyGamePass</a></h2>
-          <p>Recommendation system for video games. Explored both collaborative filtering and content-based filtering by cosine similarity.  Demonstrated skills include: python, pandas, scikit-learn, data cleaning and preprocessing, matrix factorization, natural language processing, and machine learning.</p>
-          <p></p>
-      </section>
-  </div>
+  <div class="projects-wrapper">
+    <h1>Project Portfolio</h1>
 
-  <div class="projects" onclick="handleClick(event)">
-    <!--  MyGamePass -->
-    <div class="projects-row">
-      <div id="mygamepass" class="col-sm-3">
-        <img class="projects-row__img" src="images/mygamepass.png" id="mgp" alt="MyGamePass title slide">
+    <div class="projects" onclick="handleClick(event)">
+      <!--  MyGamePass -->
+      <div class="projects-row">
+        <div id="mygamepass" class="col-md-6">
+          <img class="projects-row__img" src="images/mygamepass.png" id="mgp" alt="MyGamePass title slide" align="Center">
+        </div>
+        <div class="col-md-6">
+          <div class="project-information">
+            <h2 class="project-information__title">BrainStation Diploma Capstone Project - MyGamePass</h2>
+            <h3 class="project-information__heading">November 2020<br></h3>
+            <h4 class="project-information__section-text"><b>Technologies used</b>: Python, scikit-learn, NLTK, surprise, FunkSVD</h4>
+            <p class="project-information__description">Recommendation system for video games. Explored both collaborative filtering and content-based filtering by cosine similarity. Required extensive cleaning, EDA, and preprocessing as well as matrix factorization, natural language processing and machine learning.
+            </p>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://github.com/polzinben/MyGamePass">GitHub Repo</a></button>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://www.youtube.com/watch?v=gmJrP60PNIA&t=1s">Video Overview</a></button>
+            <button type="button" class="project-information__btn"><a target="_blank" href="https://polzinben.github.io/Hello-World/">Accompanying Blog Post</a></button>
+          </div>
+        </div>
       </div>
-      <div class="col-md-9">
+
+
+  </div>
+<!-- 
+  <div class="projects" onclick="handleClick(event)">
+    <div class="projects-row">
+      <div id="mygamepass" class="col-md-6">
+        <img class="projects-row__img" src="images/mygamepass.png" id="mgp" alt="MyGamePass title slide" align="Center">
+      </div>
+      <div class="col-md-6">
         <div class="project-information">
           <h2 class="project-information__title">BrainStation Diploma Capstone Project - MyGamePass</h2>
           <h3 class="project-information__heading">November 2020<br></h3>
@@ -52,6 +61,6 @@ title: Projects
           <button type="button" class="project-information__btn"><a target="_blank" href="https://polzinben.github.io/Hello-World/">Accompanying Blog Post</a></button>
         </div>
       </div>
-    </div>
+    </div> -->
 </body>
 
