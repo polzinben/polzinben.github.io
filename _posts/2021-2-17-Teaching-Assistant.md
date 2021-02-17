@@ -7,7 +7,7 @@ I was honored to be chosen to join the team as a Teaching Assistant after comple
 
 As a teaching assistant I was reponsible for delivering codealong review sessions to reinforce the fundamental concepts as well as provide mentorship and tutoring to the students.  Administrative responsibiliies involved marking assignments and providing feedback to the students as well as general assistance to the education team.  Delivering the codealong sessions was particularly valuable as there is an added level of pressure "when the bullets start flying" during live coding sessions.  Teaching and explaining content requires a deeper understanding, and I was tested regularly by inquisitive students and it made me a better data scientist.
 
-One of the highlights of the term came when I was able to deliver a custom lesson I created.  I have to give credit where it is due, the lesson was heavily inspired by Hugo Bowne-Anderson's intro lesson <a href="https://learn.datacamp.com" target="_blank">@datacamp</a> with a few notable additions including user defined functions, list comprehension, and some tweaks to the ruleset of the game. 
+One of the highlights of the term came when I was able to deliver a simple lesson I created.  I have to give credit where it is due, the lesson was heavily inspired by Hugo Bowne-Anderson's intro lesson <a href="https://learn.datacamp.com" target="_blank">@datacamp</a> with a few notable additions including user defined functions, list comprehension, and some tweaks to the ruleset of the game. 
 
 ### Would You Like to Play a Game? ###
 
