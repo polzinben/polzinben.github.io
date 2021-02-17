@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Capstone Project - MyGamePass (2-min read)
+title: Capstone Project - MyGamePass (3-min read)
 comments: true
 ---
 The capstone process can be a bit of a rollercoaster ride.  At first, it seems a bit daunting trying to come up with an idea for a machine learning project when you are just getting introduced to the concepts.  Then you get excited when you realize what may be possible and start dreaming big hoping to change the world with your very first project.  Of course, some humbling occurs and you realize the challenges involved with juggling the course content, personal life, and the capstone and those big dreams get whittled down into realistic goals and future aspirations.  Then you dive in and really get to work bringing it to life!
