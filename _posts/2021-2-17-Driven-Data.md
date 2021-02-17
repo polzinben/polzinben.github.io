@@ -13,8 +13,8 @@ The dataset was provided in separate files (train features, train labels, and te
 
 The challenge did not end with the preprocessing, however, as I had also never performed a multilabel classification before.  For an added layer of complexity, it is actually a step short of a hard classification as the submission required the probabilistic prediction for each option (the probability that person received the H1N1 and the seasonal flu vaccine separately).
 
+The learnings did not end there either, as it was an additional challenge properly formatting and outputing the results for the standardized submission.  In the end, my model would significantly outperform the benchmark score and placed in the top 18% of all submissions!  It provided the challenge I was seeking and plenty of learning experiences along the way.  Looking forward to the next one!
+
 <p align="center">
     <img src="../images/vaccine_results.png" id="flu_results" alt="Driven Data Competition - Submission Results">
 </p>
-
-The learnings did not end there either, as it was an additional challenge properly formatting and outputing the results for the standardized submission.  In the end, my model would significantly outperform the benchmark score and placed in the top 18% of all submissions!  It provided the challenge I was seeking and plenty of learning experiences along the way.  Looking forward to the next one!
