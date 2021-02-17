@@ -18,5 +18,3 @@ That adaptability and love of innovation that I always had as a kid led me to fa
 And that brings me here, a newly minted Data Scientist having completing the diploma program at BrainStation.  I will go into the bootcamp experience in more detail in another post, but it was a fantastic experience and pushed me every day.  After demonstrating the skillset, enthusiasm, and leadership ability I was offered a contract to join the team as a Teaching Assistant.  That was a great experience being a mentor and tutor as well.
 
 Looking forward to using this blog as an opportunity to share more of my evolution, as well as highlight my evolving skillset with a portfolio demonstrating the data science foundation.  The journey begins!
-
--Ben

@@ -16,5 +16,3 @@ I spent a lot of time leading up to the bootcamp utilizing various online resour
 Although working through the excersizes together in class was a great learning experience, the real value came from the experience working on projects.  From practicing the data cleaning and preprocessing fundamentals with general election and demographic data from the presidential elections and U.S. censor, respectively, to performing extensive natural language processing and machine learning modeling to predict positive and negative reviews the projects provided a great opportunity to reinforce the foundational concepts with real world applications.
 
 The most valuable project, however is the capstone project.  It is a personal, open-ended and unguided project where each student chooses their own business problem to address and creates the project from scratch.  This includes data acquisition, cleaning, preprocessing, modeling as well as a formal report communicating results and a high level video presentation.  The project I chose is a netflix-style recommender system for video games called MyGamePass and I can't wait to tell you all about it in the next post!
-
--Ben
