@@ -10,7 +10,7 @@ What began as a plan to return to Denver, CO where I went to College for an in p
 The remote experience has been very valuable.  Zoom meetings, slack channels, and shared drive documents became our lifeblood like so many others working from home.  The ability to learn an entirely new and complex subject in a remote environment has taught me that if we leverage technology and people we can still achieve great things together, even when we are apart.
 
 <p align="center">
-    <img src="images/bootcamp_class.png">
+    <img src="images/bootcamp_class.png" id="bootcamp" alt="Bootcamp Class Photo">
 </p>
 
 ### The Projects ###
