@@ -17,7 +17,7 @@ The premise is a simple game between you and a friend, you roll two dice and com
     <img src="https://www.burjkhalifa.ae/en/Images/BurjKhalifa-02982_new_tcm290-85702.jpg" id="bk" alt="Burj Khalifa - 162 floors">
 </p>
 
-That's the fundamental takeaway of the lesson, leveraging computers to help solve complex problems and using the central limit theorem to perform "hacker statistics".  What this means is, we can program the rules of the game into a computer and simulate the process as many times as we want, tracking the results of 100 rolls.  We can then simply use the mean of the results to confidently predict the outcome.  It is fascinating, and the foundation of data science!
+That's the fundamental takeaway of the lesson, leveraging computers to help solve complex problems and using the central limit theorem to perform "hacker statistics".  What this means is, we can program the rules of the game into a computer and simulate the process as many times as we want, tracking the results of 100 rolls.  We can then simply use the mean of the results to confidently predict the outcome.  In this case, we simulated the game 1,000 times and plotted the results.  Turns out, we would expect to reach floor 90 or above 65.7% of the time!  The power of the central limit theorem and computers :) It is fascinating, and the foundation of data science!
 
 <p align="center">
     <img src="../images/hackerstatistics.png" id="hs" alt="Hacker Statistics Results">
