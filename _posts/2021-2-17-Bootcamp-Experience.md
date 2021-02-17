@@ -11,7 +11,7 @@ The remote experience has been very valuable.  Zoom meetings, slack channels, an
 
 <p align="center">
     <img src="https://media-exp1.licdn.com/dms/image/C4D22AQHfweLIbsLjng/feedshare-shrink_1280/0/1605553917939?e=1616630400&v=beta&t=9nWCQhgeggRRTeNL3T1-R_uAA3kCBSHpiz-e6_0z2_U" id="bc" alt="Bootcamp Class Photo">
-    <img src="images/hackerstatistics.png" id="hs" alt="Hacker Statistics results">
+    <img src="../images/hackerstatistics.png" id="hs" alt="Hacker Statistics results">
 </p>
 
 ### The Projects ###
