@@ -4,4 +4,4 @@ title: Resume
 permalink: /resume/
 ---
 Test
-<a href="https://polzinben.github.io/resume/BJP_resume_2021_2_19.pdf" target="_blank">Resume PDF</a>
+<a href="BJP_resume_2021_2_19.pdf" target="_blank">Resume PDF</a>
