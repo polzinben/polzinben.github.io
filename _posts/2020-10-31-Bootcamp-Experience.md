@@ -7,7 +7,7 @@ I spent the better part of two years convincing myself to pursue a data science 
 
 What began as a plan to return to Denver, CO where I went to College for an in person course quickly pivoted into a full remote online learning environment.  I built a home office like millions of others and dove in.  At first there was some disappointment that I would be missing out on the experience of going back to school and meeting new people but that quickly faded as I made many new friends all in very different, but somewhat similar situations pursuing a great evolution in the midst of a challenging pandemic.
 
-The remote experience has been very valuable.  Zoom meetings, slack channels, and shared drive documents became our lifeblood like so many others working from home.  The ability to learn an entirely new and complex subject in a remote environment has taught me that if we leverage technology and people we can still achieve great things together, even when we are apart.
+The remote experience has been very valuable.  Zoom meetings, slack channels, and shared drive documents became our lifeblood like so many others working from home.  The ability to learn an entirely new and complex subject in a remote environment has taught me that if we leverage technology and talented people we can still achieve great things together, even when we are apart.
 
 <p align="center">
     <img src="../images/bootcamp_class.png" id="bc" alt="Bootcamp Class Photo">
