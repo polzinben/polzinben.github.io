@@ -3,7 +3,7 @@ layout: post
 title: The Bootcamp Experience and Remote Work Life (2-min read)
 comments: true
 ---
-I spent the better part of two years convincing myself to pursue a data science bootcamp fulltime.  I was always debating the timing, if I had enough experience at my last position to build from and of course getting finances in order.  Then I made the jump and left my previous position as a Production Engineer for an oil and gas company in Houston and committed 100% to this evolution just days before the first official cases of COVID-19 appeared in Wuhan and would soon rattle the world. So much for timing :) 
+I spent the better part of two years convincing myself to pursue a data science bootcamp full-time.  I was always debating the timing, if I had enough experience at my last position to build from and of course getting finances in order.  Then I made the jump and left my previous position as a Production Engineer for an oil and gas company in Houston and committed 100% to this evolution just days before the first official cases of COVID-19 appeared in Wuhan and would soon rattle the world. So much for timing :) 
 
 What began as a plan to return to Denver, CO where I went to College for an in person course quickly pivoted into a full remote online learning environment.  I built a home office like millions of others and dove in.  At first there was some disappointment that I would be missing out on the experience of going back to school and meeting new people but that quickly faded as I made many new friends all in very different, but somewhat similar situations pursuing a great evolution in the midst of a challenging pandemic.
 
