@@ -8,7 +8,7 @@ One of the most exciting areas of data science is the growing field of deep lear
 It was a great challenge building a neural network using numpy, but it was extremely educational understanding the inner workings of a deep learning model as well as the methods used to improve and optimize these models.  After committing full 10-hour workdays to the specialization I quickly recieved my certification.  <a href="https://www.coursera.org/account/accomplishments/specialization/UM5EWAS9KWQY" target="_blank">Verify here.</a>
 
 <p align="center">
-    <img src="../images/deep-learning-certification.png" id="dl_cert" alt="Deep Learning Specialization">
+    <img src="../images/deep-learning-certification.jpg" id="dl_cert" alt="Deep Learning Specialization">
 </p>
 
 Deep Learning is the next frontier of machine learning.  Simple, supervised learning models have been deployed successfully throughout many industries.  The ability to digest unstructured data and process into useful insights is critical.  The intersection of human and computers becomes even more blurred with the improvements in facial and speech recognition models.  Deep learning, otherwise known as Artificial Intelligence is changing the world around us every day in ways that have already become taken for granted.
