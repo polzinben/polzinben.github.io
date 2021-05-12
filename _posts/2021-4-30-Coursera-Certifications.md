@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Coursera Deep Learning Specialization (3-min read)
+title: Coursera Deep Learning Specialization (2-min read)
 comments: true
 ---
 One of the most exciting areas of data science is the growing field of deep learning.  With an explosion of compute power combined with accessible tools such as TensorFlow, complex concepts such as computer vision, natural language processing, and time series predictions can all be approached with deep learning. Andrew Ng, the co-founder of <a href="https://www.coursera.org/" target="_blank">coursera.org</a> and founder of <a href="https://www.deeplearning.ai/" target="_blank">DeepLearning.AI</a>, is one of the worlds leading data science researchers and educators.  His team put together a great Deep Learning Specialization taking a deep dive into the inner workings of building neural networks from scratch.
