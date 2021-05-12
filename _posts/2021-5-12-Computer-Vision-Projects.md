@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TensorFlow Computer Vision Projects (2-min read)
+title: TensorFlow Computer Vision Projects (4-min read)
 comments: true
 ---
 After finishing up the Deep Learning Specialization at <a href="https://www.coursera.org/" target="_blank">coursera.org</a> I was very inspired by the power of TensorFlow and the future of deep learning.  I wanted to push even further into this exciting area of machine learning and pursue the <a href="https://www.tensorflow.org/certificate" target="_blank">TensorFlow Developer Certificate.</a>  
