@@ -43,4 +43,4 @@ There are even more ways to improve this, we can increase the dropout regulariza
     <img src="../images/final-model.jpg" id="final-model" alt="Final Model - Adam Optimizer">
 </p>
 
-This was a great excersize diving deep into the inner workings of computer vision and optimizing a CNN model. Looking forward to learning more!
+This was a great excersize diving deep into the inner workings of computer vision and optimizing a CNN model.  If you would like to take a look at the code please check out the <a href="https://www.github.com/polzinben/TensorFlow-Computer-Vision-Projects" target="_blank">GitHub Repo.</a> Looking forward to learning more!
