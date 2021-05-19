@@ -8,7 +8,7 @@ By now you may be pretty familiar with my story so I will skip ahead to the good
 This project explored the fundamentals of NLP using the great IMDB reviews dataset.  It is another very popular dataset in machine learning research and contains 50,000 reviews labeled as positive or negative to be used for training and testing as well as an additional 50,000 unlabeled reviews to be used for predictions if desired (I did not use them at this time).  Below is a simple graphic outlying the basic NLP workflow.
 
 <p align="center">
-    <img src="../images/nlp.jepg" id="dnlp" alt="NLP Workflow">
+    <img src="../images/nlp.jpeg" id="dnlp" alt="NLP Workflow">
 </p>
 
 Choosing the right model for the job is one of the fun challenges of data science.  Natural language processing can be very challenging because of the nuance of the english language.  Some words have multiple meanings, and context matters greatly.  The placement of words within a sentence defines their meaning.
@@ -76,8 +76,8 @@ This has been really fun.  We started by just playing around with different deep
 If you would like to dive into the code please check out the GitHub Repo (link coming)
 
 Resources:
-https://datascience.stackexchange.com/questions/14581/when-to-use-gru-over-lstm
-https://arxiv.org/abs/1810.04805
-https://pypi.org/project/ktrain/
-https://morioh.com/p/12f182398dc4
-https://github.com/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%203%20-%20NLP/Course%203%20-%20Week%202%20-%20Lesson%203.ipynb
+- https://datascience.stackexchange.com/questions/14581/when-to-use-gru-over-lstm
+- https://arxiv.org/abs/1810.04805
+- https://pypi.org/project/ktrain/
+- https://morioh.com/p/12f182398dc4
+- https://github.com/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%203%20-%20NLP/Course%203%20-%20Week%202%20-%20Lesson%203.ipynb
