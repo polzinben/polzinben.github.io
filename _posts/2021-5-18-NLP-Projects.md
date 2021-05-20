@@ -3,7 +3,7 @@ layout: post
 title: TensorFlow Natural Language Processing (NLP) Project (4-min read)
 comments: true
 ---
-By now you may be pretty familiar with my story so I will skip ahead to the good stuff, with just a brief refresher that I am now preparing for the <a href="https://www.tensorflow.org/certificate" target="_blank">TensorFlow Developer Certificate</a> and really falling in love with deep learning.  It has many useful applications, and one in particular is Natural Language Processing. When you combine computer vision, NLP and voice recognition, artificial intelligence is really starting to feel like the sci-fi movies that inspired us as kids.
+By now you may be pretty familiar with my story so I will skip ahead to the good stuff, with just a brief refresher that I am now preparing for the <a href="https://www.tensorflow.org/certificate" target="_blank">TensorFlow Developer Certificate</a> and really falling in love with deep learning.  It has many useful applications, and one in particular is Natural Language Processing. When you combine computer vision, NLP and voice recognition, artificial intelligence is really starting to feel like the sci-fi movies that inspired us as kids.  I also have a video overview on my YouTube channel <a href="https://youtu.be/v4C6G5TCfno" target="_blank">Part 1 (introduction)</a>, <a href="https://youtu.be/Ub_DpG9lZoQ" target="_blank">Part 2 (optimization, predictions, and ocr)</a>.
 
 This project explored the fundamentals of NLP using the great IMDB reviews dataset.  It is another very popular dataset in machine learning research and contains 50,000 reviews labeled as positive or negative to be used for training and testing as well as an additional 50,000 unlabeled reviews to be used for predictions if desired (I did not use them at this time).  Below is a simple graphic outlying the basic NLP workflow.
 
@@ -25,11 +25,11 @@ Bear with me on the acronyms for a moment.  To begin, we will use a Gated Recurr
     <img src="../images/lstm_gru.jpg" id="lstm_gru" alt="LSTM and GRU Model Summary">
 </p>
 
-Okay let's take a look and compare these two basic models for our baseline shown above.  If you just looked at the accuracy 81% would seem pretty decent, but the diverging loss function and clear overfitting show room for improvement.  Comparing the two models the LSTM was slightly more accurate and slightly less efficient (and both learning curves are pretty ugly). In this case, the 0.124% increase in accruacy came at the cost of an additional 0.122 seconds. On a relatively small dataset such as this, and with a very simple model like we have built these differences are effectively negligible but the impact is excacerbated on larger, more complex problems.
+Okay let's take a look and compare these two basic models for our baseline shown above.  If you just looked at the accuracy ~81% would seem pretty decent, but the diverging loss function and clear overfitting show room for improvement.  It is also always important to consider how our model performance compares to that of an expert level human.  In this case, someone very familiar with movie reviews would likely achieve a much higher accuracy than 81%, so we know we can do a lot better.  Comparing the two models, the more streamlined GRU model was slightly more efficient with the shorter runtime. Interestingly, the accuracy performance is almost the same.  This is not always the case, but with our very simple model and relatively straightforward input sequences the GRU was quite effective. 
 
-This type of trade off between performance and efficiency is common. There is no "silver bullet" to answer the question of which model is "best" for the situation. It always depends on the business case. There are instances where efficiency will be optimized and you simply need to satisfy a given accuracy threshold, and vice versa.
+With much larger, more complex problems it is very common that you will need to make a decision between performance and efficiency. There is no "silver bullet" to answer the question of which model is "best" for the situation. It always depends on the business case. There are instances where efficiency will be optimized and you simply need to satisfy a given accuracy threshold, and vice versa. Certain architectures will apply more favorably to specific situations but not others.
 
-Although the LSTM model would be preferable here, before we get too far into the weeds let's step back and think about optimization as a concept in terms of NLP.
+Although the GRU model would be preferable between the two, before we get too far into the weeds let's step back and think about optimization as a concept in terms of NLP.
 
 More specifically, I like to try to use a **data centric** approach to optimization whenever possible compared to a **model centric** approach.
 
@@ -71,9 +71,9 @@ Now one very cool convergence of deep learning technologies is Optical Character
     <img src="../images/macgruber.jpg" id="macgruber" alt="MacGruber Poster">
 </p>
 
-This has been really fun.  We started by just playing around with different deep learning networks best suited to handle the nuance of the English language and really took off from there, bringing in **transfer learning with BERT and ktrain** as well as **optical character recognition with pytesseract**.  Improved a baseline model from 81% to 95% and built a fun interactive function to cap it off.  All told the notebook takes about 6 hours to run, once again not bad for a days work!
+This has been really fun.  We started by just playing around with different deep learning networks best suited to handle the nuance of the English language and really took off from there, bringing in **transfer learning with BERT and ktrain** as well as **optical character recognition with pytesseract**.  Improved a baseline model from 81% to 95% and built a fun interactive function to cap it off.  All told the notebook takes about 5 hours to run, once again not bad for a (half) days work!
 
-If you would like to dive into the code please check out the GitHub Repo (link coming)
+If you would like to dive into the code please check out the <a href="https://github.com/polzinben/TensorFlow_NLP" target="_blank">GitHub repo.</a>
 
 Resources:
 - https://datascience.stackexchange.com/questions/14581/when-to-use-gru-over-lstm
