@@ -57,7 +57,7 @@ One quick note, previously we were building our custom functions to integrate wi
 
 ## BERT Results ##
 
-Utilizing the BERT model and retraining on our dataset we were able to achieve an accuracy of 98.4%!  Incredible gains!  It did take a significantly longer amount of time to train the model (12 minutes to 80 minutes), however.  This is because the BERT model is significantly more complex than our simple model, but clearly much more accurate.  Now that we have our model, ktrain makes it easy to predict on new text.  With just a couple lines of code we had our predictor up and running, and making successful predictions!
+Utilizing the BERT model and retraining on our dataset we were able to achieve an accuracy of 94%!  Incredible gains!  Now it did come at a steep increase in runtime, going from 12 minutes to nearly 5 hours. This is because the BERT model is significantly more complex than the simple model we defined previously, and we allowed for much longer reviews with max length of 500.  Now that we have our model, ktrain makes it easy to predict on new text.  With just a couple lines of code we had our predictor up and running, and making successful predictions!
 
 <p align="center">
     <img src="../images/predictor.jpg" id="predictor" alt="Final Model - Predictor">
