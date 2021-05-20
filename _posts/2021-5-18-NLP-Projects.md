@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TensorFlow Natural Language Processing (NLP) Project (4-min read)
+title: TensorFlow Natural Language Processing (NLP) Project (6-min read)
 comments: true
 ---
 By now you may be pretty familiar with my story so I will skip ahead to the good stuff, with just a brief refresher that I am now preparing for the <a href="https://www.tensorflow.org/certificate" target="_blank">TensorFlow Developer Certificate</a> and really falling in love with deep learning.  It has many useful applications, and one in particular is Natural Language Processing. When you combine computer vision, NLP and voice recognition, artificial intelligence is really starting to feel like the sci-fi movies that inspired us as kids.  I also have a video overview on my YouTube channel <a href="https://youtu.be/v4C6G5TCfno" target="_blank">Part 1 (introduction)</a>, <a href="https://youtu.be/Ub_DpG9lZoQ" target="_blank">Part 2 (optimization, predictions, and ocr)</a>.
