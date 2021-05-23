@@ -53,8 +53,6 @@ However the downside of BERT and other pretrained NLP models is you need to foll
 
 That is where **ktrain** comes in.  ktrain is a keras wrapper used to help build, train, optimize, debug, and deploy deep learning models.  ktrain is fully integrated with our good buddy BERT and will make streamline dozens of lines of code into a few easy operations.  Let's take a look. 
 
-One quick note, previously we were building our custom functions to integrate with the tfds workflow.  ktrain is built to utilize the get_file workflow from keras.
-
 ## BERT Results ##
 
 Utilizing the BERT model and retraining on our dataset we were able to achieve an accuracy of 94%!  Incredible gains!  Now it did come at a steep increase in runtime, going from 12 minutes to nearly 5 hours. This is because the BERT model is significantly more complex than the simple model we defined previously, and we allowed for much longer reviews with max length of 500.  Now that we have our model, ktrain makes it easy to predict on new text.  With just a couple lines of code we had our predictor up and running, and making successful predictions!
