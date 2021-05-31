@@ -43,10 +43,6 @@ As mentioned previously, the LSTM lends itself very well to time series problems
     <img src="../images/results.jpg" id="results" alt="Forecast MAE Results">
 </p>
 
-Although the GRU model would be preferable between the two, before we get too far into the weeds let's step back and think about optimization as a concept in terms of NLP.
-
-More specifically, I like to try to use a **data centric** approach to optimization whenever possible compared to a **model centric** approach.
-
 ## Sales Forecasting with ARIMA and Prophet ##
 
 Switching gears now, I also wanted to take some time to explore two of the most powerful forecasting tools used today ARIMA and Prophet.  ARIMA stands for Autoregressive Integrated Moving Average.  As the name implies, this is a powerful autoregression technique that also factors in the moving average of the time series.  It can also be adapted to problems with seasonality by using the SARIMA model, and either can be upgraded to a multiple output model by using ARIMAX or SARIMAX.
