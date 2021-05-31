@@ -73,7 +73,7 @@ Let's take a look at the Prophet model.  It is a more advanced model and is able
 
 This has been a great introduction to Time Series Analysis and Forecasting.  We went through a detailed TensorFlow.org multivariate analysis walkthrough to get our bearings before applying the concepts to a real world problem with retail sales data.  Time Series Forecasting is extremely powerful, and the actionable intelligence can be applied to any industry to help drive business decisions and optimize operations.  This has been great, looking forward to what's next!
 
-If you would like to dive into the code please check out the <a href="https://github.com/polzinben/Time_Series_Forecasting" target="_blank">GitHub repo.</a>
+If you would like to dive into the code please check out the <a href="https://github.com/polzinben/Time-Series-Forecasting" target="_blank">GitHub repo.</a>
 
 Resources:
 - https://www.tensorflow.org/tutorials/structured_data/time_series
