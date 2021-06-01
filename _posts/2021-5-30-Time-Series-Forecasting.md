@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Time Series Forecasting with TensorFlow, ARIMA, and PROPHET (4-min read)
+title: Time Series Forecasting with TensorFlow, ARIMA, and PROPHET (6-min read)
 comments: true
 ---
 I have been preparing weekly for the <a href="https://www.tensorflow.org/certificate" target="_blank">TensorFlow Developer Certificate</a> by taking a deep dive into an individual deep learning concept and exploring the TensorFlow applications.  This week we'll dive into Time Series Forecasting, and extremely powerful approach to predicting the future.  It has many useful applications and is a very common strategy in the retail space as well as weather or production forecasting and even used by NASA searching for earth-like planets! 
