@@ -10,7 +10,8 @@ After falling in love with data while working as an engineer I realized I needed
 Always excited about the future and how we can shape it, I am looking forward to joining a great team and putting these skills to use! I am passionate about Machine Learning, Python, and the space industry. I love watching my favorite sports teams the Iowa Hawkeyes and Green Bay Packers, and I'm also a huge Xbox gamer. 
 
 ### Education and Experience
-
+- TensorFlow Professional Developer Certificat - 2021
+- FinTech Learning Assistant - 2021
 - Data Science Teaching Assistant - 2020 - 2021
 - BrainStation Remote Bootcamp - Data Science Diploma - 2020
 - Newfield Exploration / EnCana Corporation - Production Engineer - 2016 - 2019
